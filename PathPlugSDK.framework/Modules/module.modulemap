@@ -1,0 +1,6 @@
+framework module PathPlugSDK {
+  umbrella header "PathPlugSDK.h"
+
+  export *
+  module * { export * }
+}
