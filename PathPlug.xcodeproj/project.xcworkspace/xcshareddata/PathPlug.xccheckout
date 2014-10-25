@@ -12,6 +12,8 @@
 	<dict>
 		<key>57C77552FC2A1BA7FE1DB5AA6E624F26760663CE</key>
 		<string>http://stash.arkenus.com:7990/scm/abp/pathplug.git</string>
+		<key>AEC7FC19CE0CFA14705F8DACCC168CD50F1E83B1</key>
+		<string>http://stash.arkenus.com:7990/scm/abp/pathplugsdk.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>PathPlug.xcodeproj</string>
@@ -19,6 +21,8 @@
 	<dict>
 		<key>57C77552FC2A1BA7FE1DB5AA6E624F26760663CE</key>
 		<string>../..</string>
+		<key>AEC7FC19CE0CFA14705F8DACCC168CD50F1E83B1</key>
+		<string>../..SDK%20</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>http://stash.arkenus.com:7990/scm/abp/pathplug.git</string>
@@ -35,6 +39,14 @@
 			<string>57C77552FC2A1BA7FE1DB5AA6E624F26760663CE</string>
 			<key>IDESourceControlWCCName</key>
 			<string>PathPlug</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AEC7FC19CE0CFA14705F8DACCC168CD50F1E83B1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PathPlugSDK%20</string>
 		</dict>
 	</array>
 </dict>

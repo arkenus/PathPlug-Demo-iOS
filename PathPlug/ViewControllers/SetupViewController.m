@@ -46,7 +46,7 @@
     
     [[PathPlug sharedPlug] setDataRefreshInterval:self.refresh_interval];
     [[PathPlug sharedPlug] setDelegate:self];
-   // [self.plug startService];
+    [[PathPlug sharedPlug] initWithAppKey:self.app_key andAppSecret:self.app_secret];
 }
 
 -(void)pathPlug:(PathPlug *)pathPlug updatedSetupMessage:(NSString *)message

@@ -40,7 +40,7 @@
     UIImageView *imageView = (UIImageView*)[cell viewWithTag:50];
     UILabel *label = (UILabel*)[cell viewWithTag:1];
     label.text = [application objectForKey:@"app_name"];
-    if(![[application objectForKey:@"app_icon"] isEqualToString:@""])
+    if([[application objectForKey:@"app_icon"]class] != [NSNull class] )
     [imageView sd_setImageWithURL:[NSURL URLWithString:[application objectForKey:@"app_icon"]]
 placeholderImage:[UIImage imageNamed:@"placeholder.png"]];
     
